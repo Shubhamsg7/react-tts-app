@@ -7,7 +7,64 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: slateblue;
+
+}
+
+.center{
+  background-color: rgba(256, 256, 256, .3);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, .5);
+}
+
+.center textarea{
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  border: 2px dashed #fff;
+ background: transparent;
+ border-radius: 10px;
+ padding: 10px;
+  margin-bottom: 10px;
+}
+
+.center button{
+  background-color: slateblue;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .5);
+  transition: .2s;
+}
+
+
+
+.center button:active{
+  transform: translateY(-2px);
+  box-shadow: none;
+}
+
+.btn{
+  text-align: center;
+}
+
+*:focus{
+  outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#fff;
+  opacity: .8; /* Firefox */
 }
