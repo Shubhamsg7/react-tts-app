@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-tts-app/static/css/main.e01f71e9.chunk.css",
+    "main.js": "/react-tts-app/static/js/main.b84d120b.chunk.js",
+    "main.js.map": "/react-tts-app/static/js/main.b84d120b.chunk.js.map",
+    "runtime-main.js": "/react-tts-app/static/js/runtime-main.681b23d3.js",
+    "runtime-main.js.map": "/react-tts-app/static/js/runtime-main.681b23d3.js.map",
+    "static/js/2.34b5d185.chunk.js": "/react-tts-app/static/js/2.34b5d185.chunk.js",
+    "static/js/2.34b5d185.chunk.js.map": "/react-tts-app/static/js/2.34b5d185.chunk.js.map",
+    "index.html": "/react-tts-app/index.html",
+    "static/css/main.e01f71e9.chunk.css.map": "/react-tts-app/static/css/main.e01f71e9.chunk.css.map",
+    "static/js/2.34b5d185.chunk.js.LICENSE.txt": "/react-tts-app/static/js/2.34b5d185.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.681b23d3.js",
+    "static/js/2.34b5d185.chunk.js",
+    "static/css/main.e01f71e9.chunk.css",
+    "static/js/main.b84d120b.chunk.js"
+  ]
+}
